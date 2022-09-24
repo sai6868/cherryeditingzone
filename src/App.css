@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner{
+    background-color:#EDE6DB;
+    height: 100vh;
+    
+}
+
+.idea{
+  width: 400px;
+  top: 30%;
+  left: 10%;
+
+ 
+}
+.logoicon{
+  width:40px;
+  position: absolute;
+  left: 2%;
+  box-shadow: 1px 1px 10px 1px #EDE6DB;
+}
+.navbar{
+  background-color: #1A3C40;
+}
+.maintext{
+  width: 40%;
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  
+}
+.title{
+  color: #1A3C40;
+  font-family: 'Oswald', sans-serif;
+}
+.subtitle{
+  color: #1a3c4076;
+  font-family: 'Poppins', sans-serif;
 }
